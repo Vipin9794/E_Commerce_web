@@ -1,5 +1,5 @@
 import React from "react";
-import shooseImg from "../../assets/bags.png";
+import shooseImg from "../../assets/Bags.png";
 import "./style.css";
 export default function Bags() {
   return (
