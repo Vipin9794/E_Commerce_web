@@ -1,0 +1,25 @@
+.header-container{
+    border : 1px solid #D3DBDF;
+
+}
+.logo{
+    border: 1px solid #FFC107;
+    border-radius: 50%;
+}
+.tabView {
+    display: none;
+  }
+
+  .desktop-view{
+    display: block;
+  }
+
+@media (max-width: 768px) {
+  .tabView {
+    display: block;
+  }
+   .desktop-view{
+    display: none;
+  }
+  
+}

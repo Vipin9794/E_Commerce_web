@@ -1,0 +1,139 @@
+.hero-container{
+    padding-left : 10%;
+    padding-right: 10%; 
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.sub-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    
+
+}
+.shooseImg{
+    height: 500px;
+    width: 520px;
+    /* background: red; */
+}
+.custProd{
+    height: 500px;
+    width: 520px;
+    /* background: red; */
+}
+
+.prod-container{
+   display: flex;
+    justify-content: space-between;
+    gap: 30px; 
+}
+.prod-container1{
+   display: flex;
+    justify-content: space-between;
+    gap: 30px; 
+}
+.prod-container3{
+   display: flex;
+    justify-content: space-between;
+    gap: 30px; 
+}
+.titleContainer{
+    padding: 0 15%;
+}
+.imageCont{
+    object-fit: contain;
+
+    
+}
+.cardNew{
+    width: 372px;
+}
+
+
+
+
+@media (max-width: 1080px) {
+
+  .sub-container{
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  
+
+  }
+  .prod-container3{
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+    gap: 0px; 
+    
+  }
+  
+  .prod-container1{
+    
+    
+    flex-wrap: wrap;
+    gap: 60px; 
+  }
+  .contentcontainer{
+    padding-top: 49px;
+  }
+ 
+}
+
+@media (max-width: 768px) {
+    .hero-container{
+    padding-left : 8%;
+    padding-right: 8%; 
+    padding-top: 64px;
+    padding-bottom: 64px;
+   }
+    .prod-container{
+    flex-wrap: wrap;
+    gap: 10px; 
+  }
+ .prod-container1{
+  
+    gap: 30px; 
+    /* align-items: center;
+    justify-content: center; */
+  }
+.cardNew{
+    width: 300px;
+  }
+  .contentcontainer{
+    padding-top: 49px;
+  }
+
+    
+}
+
+@media (max-width: 480px) {
+    .hero-container{
+    padding-left : 8%;
+    padding-right: 8%; 
+    padding-top: 40px;
+    padding-bottom: 40px;
+   }
+   .shooseImg{
+    height: 300px;
+    width: 320px;
+    /* background: red; */
+}
+ .custProd{
+    height: 300px;
+    width: 310px;
+    /* background: red; */
+}
+.titleContainer{
+    padding: 0 4%;
+}
+.prod-container1{
+  
+    gap: 30px; 
+    
+  }
+
+}
