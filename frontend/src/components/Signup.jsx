@@ -11,7 +11,7 @@ export default function Signup() {
   ]);
   const navigate = useNavigate();
 
-  const { username, password } = formData;
+  const { name, username, password } = formData;
 
   const handleOnChange = (e) => {
     setFormData({ ...formData, [e.target.name]: [e.target.value] });
@@ -27,8 +27,11 @@ export default function Signup() {
     <div className="flex items-center  justify-center  ">
       <div className="bg-white  p-5  rounded-lg absolute top-[30%] shadow-lg ">
         <h1 className="text-center text-2xl font-bold">Signup</h1>
-<div className="border mt-3"></div>
-        <form className=" p-8 flex flex-col gap-6 justify-center items-end" onSubmit={handleSubmit}>
+        <div className="border mt-3"></div>
+        <form
+          className=" p-8 flex flex-col gap-6 justify-center items-end"
+          onSubmit={handleSubmit}
+        >
           <div className="flex gap-6 ">
             <lable> Name:</lable>
             <input
