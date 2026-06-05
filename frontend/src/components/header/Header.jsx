@@ -6,7 +6,7 @@ import Sidebar from "../sidebar/Sidebar";
 export default function Header() {
   return (
     <>
-      <section className=" header-container   sm:p-3 md:p-2 lg:p-4  flex justify-between items-center">
+      <section className=" header-container fixed top-0 left-0 w-full z-50 bg-white  sm:p-3 md:p-2 lg:p-4  flex justify-between items-center">
         <div className="flex items-center  justify-between gap-10 ">
           <div className="tabView">
             <Sidebar/>
